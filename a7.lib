@@ -9,10 +9,25 @@ F1 "+4V" 0 140 50 H V C CNN
 F2 "" 0 0 50 H V C CNN
 F3 "" 0 0 50 H V C CNN
 DRAW
-P 2 0 1 0  -30 50  0 100 N
-P 2 0 1 0  0 0  0 100 N
-P 2 0 1 0  0 100  30 50 N
+P 2 0 1 0 -30 50 0 100 N
+P 2 0 1 0 0 0 0 100 N
+P 2 0 1 0 0 100 30 50 N
 X +4V 1 0 0 0 U 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# 4V_BST
+#
+DEF 4V_BST #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -150 50 H I C CNN
+F1 "4V_BST" 0 140 50 H V C CNN
+F2 "" 0 0 50 H V C CNN
+F3 "" 0 0 50 H V C CNN
+DRAW
+P 2 0 1 0 -30 50 0 100 N
+P 2 0 1 0 0 0 0 100 N
+P 2 0 1 0 0 100 30 50 N
+X 4V_BST 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
@@ -24,16 +39,16 @@ F1 "A7" 0 500 197 H V C CNN
 F2 "" -250 100 60 H V C CNN
 F3 "" -250 100 60 H V C CNN
 DRAW
-T 0 600 750 60 0 0 0 50Ohm  Normal 0 R C
-T 0 600 1250 60 0 0 0 50Ohm  Normal 0 R C
-T 0 -250 100 60 0 0 0 >1V9  Normal 0 L C
-T 0 -600 -300 60 0 0 0 AT~Command~2V8  Normal 0 L C
-T 0 -600 -900 60 0 0 0 Download~2V8  Normal 0 L C
-T 0 600 -750 60 0 0 0 Microphone  Normal 0 R C
-T 0 600 -1450 60 0 0 0 Speaker  Normal 0 R C
+T 0 600 750 60 0 0 0 50Ohm Normal 0 R C
+T 0 600 1250 60 0 0 0 50Ohm Normal 0 R C
+T 0 -250 100 60 0 0 0 >1V9 Normal 0 L C
+T 0 -600 -300 60 0 0 0 AT~Command~2V8 Normal 0 L C
+T 0 -600 -900 60 0 0 0 Download~2V8 Normal 0 L C
+T 0 600 -750 60 0 0 0 Microphone Normal 0 R C
+T 0 600 -1450 60 0 0 0 Speaker Normal 0 R C
 S -650 1400 650 -1950 0 0 0 N
-T 0 -600 -1350 60 0 1 0 Headphone  Normal 0 L C
-T 0 600 100 60 0 1 0 SIM  Normal 0 R C
+T 0 -600 -1350 60 0 1 0 Headphone Normal 0 L C
+T 0 600 100 60 0 1 0 SIM Normal 0 R C
 X GPS_RF 1 850 1150 200 L 50 50 1 1 I
 X GND 2 850 1050 200 L 50 50 1 1 I
 X GPIO16 3 -850 1050 200 R 50 50 1 1 I
