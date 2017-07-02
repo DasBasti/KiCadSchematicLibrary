@@ -4,4 +4,8 @@ $CMP +4V
 K POWER, PWR
 $ENDCMP
 #
+$CMP 4V_BST
+K POWER, PWR
+$ENDCMP
+#
 #End Doc Library
